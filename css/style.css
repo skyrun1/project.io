@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0e121a;
+    border-radius: 6px;
+    color: #fff;
+}
+/* header section */
+.head{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 3em;
+}
+#menu{
+    font-size: 1.3rem;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    
+}
+header h3{
+    font-size: 1.2rem;
+}
+
+header nav{
+    width: 40%;
+}
+nav li{
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+/* end of header section */
+/* skyrun section */
+.run{
+    margin: 1.7rem;
+    margin-left: 3rem !important;
+}
+
+.run p{
+    margin-top: 0.3rem;
+    font-size: large;
+    font-weight: 10;
+}
+.run li{
+    margin-top: 0.7rem;
+    list-style-type: none;
+    
+}
+.run li a{
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    font-size: 0.7rem;
+     padding: 0.4rem  0.5rem;
+     border-radius: 3px;
+     font-weight: 600;
+}
+/* end of skyrun section */
+
+/* about me section */
+.headi p{
+    margin: 1rem 2rem;
+}
+.headi h1{
+    margin-bottom: 0.7rem;
+}
+.headi img{
+    background-color: rgb(133, 133, 128);
+    border-radius: 5px;
+}
+.inp{
+    margin: 1rem 2rem;
+    font-size: smaller;
+}
+.inp input{
+    width: 100%;
+ 
+}
+.inpu{
+    margin-left: 51rem;
+    
+}
+
+.inpu1{
+    margin-left: 54rem;
+}
+
+.inpu2{
+    margin-left: 56rem;
+}
+/* end of about me section */
+
+/* service section */
+.serv{
+    margin-left: 55px;
+    margin-top: 50px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+     
+}
+.profile p{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.pro{
+    border: 1px solid rgba(230, 230, 230, 0.1);
+    margin-left: 3rem;
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+
+.file{
+    border: 1px solid rgba(230, 230, 230, 0.1);
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+
+.prof{
+    border: 1px solid rgba(230, 230, 230, 0.1);
+   margin-right: 3rem; 
+    padding: 0.6rem;
+    border-radius: 10px;
+}
+
+#kit{
+    padding: 0.2rem;
+}
+
+.profile h3{
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+/* end of service section */
+
+/* projects sectio */
+.pro1a{
+    margin-top: 25px;
+    margin-left: 60px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.pro1{
+    display: flex;
+    gap: 15px;
+}
+
+.pro2{
+    border:1px solid rgba(230, 230, 230, 0.1);
+    padding: 0.4rem;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.pit{
+    font-weight: lighter;
+    font-size: smaller;
+    margin-top: 4px;
+    margin-left: 100px;
+}
+
+.pro7{
+    margin-left: 17%;
+}
+.proa{
+    margin-left: 2%;
+}
+
+.form{
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+.form1{
+    display: flex;
+gap: 20px;
+}
+
+input{
+    background-color: #0e121a;
+    border: 1px solid rgba(230, 230, 230, 0.1);
+    margin: 2.8px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#form{
+    margin-bottom: 10px;
+    font-size: medium;
+    
+}
+
+.form4{
+    margin-left: 60px;
+    margin-bottom: 45% !important;
+    font-weight: lighter;
+    font-size: small;
+    padding: 20px;
+    
+}
+
+/* end of service section */
+
+/* media query section */
+@media  (max-width:768px){
+ .headi{
+    flex-direction: column;
+    margin: auto;
+ }  
+ 
+ .inp input{
+    width: 90%;
+ 
+}
+
+ .inpu{
+    margin-left: 17rem !important;   
+}
+
+#uty{
+    margin-left: 60px !important;
+}
+.inpu1{
+    margin-left: 20rem !important;
+}
+
+.inpu2{
+    margin-left: 20rem !important;
+}
+
+.profile{
+    flex-direction: column !important;
+}
+
+.pro1{
+    flex-direction: column;
+}
+
+header nav ul{
+    flex-direction: column;
+}
+#menu{
+    display: none;
+}
+.form1{
+    gap: 5px !important;
+    margin-right: 10px !important;
+}
+}
+
+
+/* media query section */
